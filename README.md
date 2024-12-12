@@ -8,7 +8,7 @@ Starting from the point cloud obtained before, **an ellipsoid equation is obtain
 
 The code contained in this repository has been used for the experimental evaluation in paper "Modeling the Reachability Space of Robotic Manipulators through Ellipsoid Equations".
 
-Keywords: Robotic Manipulators, Reachability Space, Ellipsoid Modeling, Optimization
+**Keywords**: Robotic Manipulators, Reachability Space, Ellipsoid Modeling, Optimization
 
 
 
