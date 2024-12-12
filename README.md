@@ -8,7 +8,18 @@ Starting from the point cloud obtained before, **an ellipsoid equation is obtain
 
 The code contained in this repository has been used for the experimental evaluation in paper "Modeling the Reachability Space of Robotic Manipulators through Ellipsoid Equations".
 
-**Keywords**: Robotic Manipulators, Reachability Space, Ellipsoid Modeling, Optimization
+**Keywords**: Robotic Manipulators, Reachability Space, Ellipsoid Modeling, Optimization.
+
+## Point cloud generation
+This tool allows to generate a point cloud representing the reachability space starting from the URDF of a robot.
+
+## Optimization problem
+This tool allow to obtain the parameters of the ellipsoid equation fallowing a minimization fashion.
+
+## Variants of the PointNet
+This tool allow to obtain the parameters of the ellipsoid equation using different variants of the PointNet model.
+
+## Experimental evaluation
 
 
 
