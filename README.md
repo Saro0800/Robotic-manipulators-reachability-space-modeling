@@ -17,6 +17,7 @@ To obtain a point cloud representing the points that can be reached by the desir
 
 ```python
 python3 generate_pointcloud/gen_cloud_GUI.py
+```
 
 
 
