@@ -13,14 +13,40 @@ The code contained in this repository has been used for the experimental evaluat
 ## Point cloud generation
 This tool allows to generate a point cloud representing the reachability space starting from the URDF of a robot.
 
+To obtain a point cloud representing the points that can be reached by the desired manipulator, it is possible to run the Python code *gen_cloud_GUI.py* in the *generate_pointcloud* folder.
+
+```python
+python3 generate_pointcloud/gen_cloud_GUI.py
+
+
+
+
+
+
+
+
+
 ## Optimization problem
 This tool allow to obtain the parameters of the ellipsoid equation fallowing a minimization fashion.
+
+
+
+
+
+
+
 
 ## Variants of the PointNet
 This tool allow to obtain the parameters of the ellipsoid equation using different variants of the PointNet model.
 
+
+
+
+
+
+
+
 ## Experimental evaluation
-prova
 
 
 
