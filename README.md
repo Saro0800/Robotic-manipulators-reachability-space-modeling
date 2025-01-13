@@ -25,11 +25,15 @@ The use of this script alone is intended for visualization purposes only. Before
 ### Explanation
 The center of the code is represented by the GUI showed below.
 
-<img src="images/GUI_img.jpg" alt="Esempio di immagine" width="400">
+<div align="center">
+    <img src="images/GUI_img.jpg" alt="Esempio di immagine" width="600">
+</div>
 
 It is possible to identify a total of 6 sections, as highlighted in the following picture.
 
-<img src="images/GUI_img_commented.jpg" alt="Esempio di immagine" width="400">
+<div align="center">
+    <img src="images/GUI_img_commented.jpg" alt="Esempio di immagine" width="600">
+</div>
 
 In more details:
 
@@ -48,8 +52,9 @@ In more details:
 ### Example
 As an example, the point cloud obtained for the ur5e manipulator from the Universal Robotics (whose URDF is available in the *generate_pointcloud/models* folder) is showed. The visualization of the robot model along with the newly computed point cloud is obtained exploiting **Rviz for ROS Noetic**. 
 
-<img src="images/ur5e_pointcloud.png" alt="Esempio di immagine" width="1000">
-
+<div align="center">
+    <img src="images/ur5e_pointcloud.png" alt="Esempio di immagine" width="1000">
+</div>
 
 
 
