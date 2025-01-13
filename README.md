@@ -50,7 +50,9 @@ In more details:
 6. A read-only text box is used to show important information during the generation of the point cloud, as well as error and/or debugging messages.
 
 ### Example
-As an example, the point cloud obtained for the ur5e manipulator from the Universal Robotics (whose URDF is available in the *generate_pointcloud/models* folder) is showed. The visualization of the robot model along with the newly computed point cloud is obtained exploiting **Rviz for ROS Noetic**. 
+As an example, the point cloud obtained for the ur5e manipulator from the Universal Robotics (whose URDF is available in the *generate_pointcloud/models* folder) is showed. The visualization of the robot model along with the newly computed point cloud is obtained exploiting **Rviz for ROS Noetic**.
+
+Please note that, as cited above, using the *gen_cloud_GUI.py* script will result only in the computation of the point cloud and eventually its visualization. As a result, the ellipsoid is not visible, since its parameters are not computed.
 
 <div align="center">
     <img src="images/ur5e_pointcloud.png" alt="Esempio di immagine" width="1000">
