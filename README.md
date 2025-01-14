@@ -226,8 +226,10 @@ The training process is performed considering a batch size of 16 point clouds, a
 #### Saves
 During the training process, some checkpoint are saved in the the ***"pointNet/saves"*** folder. The training results of the considered model are saved in a subfolder with the same name of the model. The **best**, the **last** results and the **training history** are stored in specific folders.
 
+Please note that, by default, the training process will create new saves in the *"pointNet/saves"* folder. This folder contains also the set of parameters obtained from our training. It follows that **any new training will overwrite the provided set of parameters**, hence it will be no longer possible to test the pre-trained models.
+
 ### Evaluation
-It is possible to test one of the pre-trained models by running the script named ***"evaluate_eqn_gpu.py"***. It accepts the following parameters:
+To evaluate the performances of the pre-trained model provided, or to see the results of a new training process, it is possible to run the script named ***"evaluate_eqn_gpu.py"***. It accepts the following parameters:
 * **--model_type**: string indicting the type of model to train. Default to *"pointnet_cls*". Accepted values *["pointnet_cls", "pointnet_cls_small", "pointnet_cls_tiny"]*.
 * **--restore_from_last**: bool to load the parameters obtained with the last training epoch. Default to False.
 * **--restore_from_best**: bool to load the best set of parameters obtained during the training. Default to False.
