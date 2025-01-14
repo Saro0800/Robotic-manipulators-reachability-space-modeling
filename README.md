@@ -1,24 +1,24 @@
 # Robotic manipulators reachability space modeling
 
-## Index
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Point cloud generation](#point-cloud-generation)
-    - [Notice](#notice)
-    - [Usage](#usage)
-    - [Example](#example)
-- [Optimization problem](#optimization-problem)
-    - [Problem definition](#problem-definition)
-    - [Usage](#usage)
-    - [Example](#example-1)
-- [Variants of the PointNet](#variants-of-the-pointnet)
-    - [Available models](#available-models)
-    - [Dataset](#dataset)
-        - [Usage](#usage-2)
-    - [Training](#training)
-        - [Training details](#training-details)
-        - [Saves](#saves)
-    - [Evaluation](#evaluation)
+## Table of contents
++ [Introduction](#introduction)
++ [Prerequisites](#prerequisites)
++ [Point cloud generation](#point-cloud-generation)
+    + [Notice](#notice)
+    + [Usage](#usage)
+    + [Example](#example)
++ [Optimization problem](#optimization-problem)
+    + [Problem definition](#problem-definition)
+    + [Usage](#usage)
+    + [Example](#example-1)
++ [Variants of the PointNet](#variants-of-the-pointnet)
+    + [Available models](#available-models)
+    + [Dataset](#dataset)
+        + [Usage](#usage-2)
+    + [Training](#training)
+        + [Training details](#training-details)
+        + [Saves](#saves)
+    + [Evaluation](#evaluation)
 
 
 
