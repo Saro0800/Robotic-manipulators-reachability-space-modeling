@@ -1,5 +1,28 @@
 # Robotic manipulators reachability space modeling
 
+## Index
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Point cloud generation](#point-cloud-generation)
+    - [Notice](#notice)
+    - [Usage](#usage)
+    - [Example](#example)
+- [Optimization problem](#optimization-problem)
+    - [Problem definition](#problem-definition)
+    - [Usage](#usage)
+    - [Example](#example-1)
+- [Variants of the PointNet](#variants-of-the-pointnet)
+    - [Available models](#available-models)
+    - [Dataset](#dataset)
+        - [Usage](#usage-2)
+    - [Training](#training)
+        - [Training details](#training-details)
+        - [Saves](#saves)
+    - [Evaluation](#evaluation)
+
+
+
+## Introduction
 This repository provides tools and resources for modeling and analyzing the reachability space of robotic manipulators using ellipsoid equations. A first tool allows to obtain the **point cloud representing a set of the reachable points** using only the kinematic model of the desired robot. This method is applicable to **different kind of manipulators**, with fixed or mobile bases. For the latters, the additional Degree of Freedoms (DOFs) introduced by the mobile base are not considered. Hence an estimation, and a subsequent model, of the reachability space of the manipulator depending on the current pose of the base is obtained.
 
 Starting from the point cloud obtained before, **an ellipsoid equation is obtained**. The parameters of the ellipsoid, namely the coordinates of the center and the lenghts of axes, are obtained as a result of an** optimization problem**. Two different tools to solve the optimization problem can be used:
@@ -42,7 +65,7 @@ python3 generate_pointcloud/gen_cloud_GUI.py
 ### Notice
 The use of this script alone is intended for visualization purposes only. Before creating and visualizing the GUI (Graphical User Interface) to generate the desired point cloud, **a ROS node named *reachability_pointcloud_publisher* is created**. For this reason, **the ROS master node must be running** before the desired point cloud can be generated using the proposed GUI.
 
-### Explanation
+### Usage
 The center of the code is represented by the GUI showed below.
 
 <div align="center">
@@ -149,7 +172,7 @@ In order to adapt to different machines with different computational capabilitie
 
 To code to build each of the model described above is available in the ***pointNet/models*** folder.
 
-### Datasets
+### Dataset
 To train and test the different models, a dataset containing 10.000 different point clouds has been created. Before creating a new point cloud, the equation to be associated to it is generated. The values to the 6 parameters characterizing it are randomly generated using a uniform distribution between 0 and 1. This choice was driven by the way ML models learn, together with the mechanical properties of manipulators commonly used in the research field, whose span vary from few centimeters and to slightly beyond 1 meter.
 
 The .h5 file containing the generated dataset, named ***"dataset_10000.h5"***, can be found in the **pointNet/dataset** folder, together with a Python script. This latter, named ***"load_dataset/py"***, contains all the function to:
