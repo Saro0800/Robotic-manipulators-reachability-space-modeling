@@ -99,7 +99,7 @@ Once the optimization problem is solved, the parameters of the best solution fou
 2. A ***PointCloud2*** message is published by the *reachability_pointcloud_publisher* node on a topic named ***/vis_ellipsoid_center***. It is used to show the center of the ellipsoid.
 
 ### Example
-As an example, the ellipsoid (in green) enclosing the reachability space of the LoCoBot WX250s from Trossen Robotics (whose URDF can be found in the *generate_pointcloud/models* folder) is visualized in Rviz along with the point cloud (in red).
+As an example, here it is visualized the ellipsoid (in green) enclosing the reachability space of the LoCoBot WX250s from Trossen Robotics (whose URDF can be found in the *generate_pointcloud/models* folder), along with the point cloud (in red).
 
 <div align="center">
     <img src="images/locobot_ellipsoid.png" width="800">
