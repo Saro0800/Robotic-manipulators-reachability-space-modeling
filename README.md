@@ -34,8 +34,10 @@ The code contained in this repository has been used for the experimental evaluat
 **Keywords**: Robotic Manipulators, Reachability Space, Ellipsoid Modeling, Optimization.
 
 ## Prerequisites
+The code available in this repository has been tested and developed on **Ubuntu 20.04 LTS**.
+
 Before installing and using this repo, please be sure to meet the following prerequisites:
-1. **Python version**: Make sure you have Python 3.8.0 or higher installed. You can download it from [here](https://www.python.org/downloads/).
+1. **Python version**: The code proposed here has been developed and tested using Python 3.8.10. You can download it from [here](https://www.python.org/downloads/). For higher version of Python, the libraries used may have received major updates and some errors may arise.
 2. **ROS**: You need to have **ROS Noetic** installed. For the installation, please check the [official website](https://wiki.ros.org/noetic/Installation/Ubuntu).
 3. **Rviz**: although not strictly necessar, it is suggested to have the Rviz ROS package installed, in order to try all the features of the proposed code. You can install by executing the following command:
     ```
