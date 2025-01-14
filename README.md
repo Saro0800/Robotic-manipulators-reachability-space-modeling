@@ -10,6 +10,26 @@ The code contained in this repository has been used for the experimental evaluat
 
 **Keywords**: Robotic Manipulators, Reachability Space, Ellipsoid Modeling, Optimization.
 
+## Prerequisites
+Before installing and using this repo, please be sure to meet the following prerequisites:
+1. **Python version**: Make sure you have Python 3.8.0 or higher installed. You can download it from [here](https://www.python.org/downloads/).
+2. **ROS**: You need to have **ROS Noetic** installed. For the installation, please check the [official website](https://wiki.ros.org/noetic/Installation/Ubuntu).
+3. **Rviz**: although not strictly necessar, it is suggested to have the Rviz ROS package installed, in order to try all the features of the proposed code. You can install by executing the following command:
+    ```
+    sudo apt-get install ros-noetic-rviz
+    ```
+4. **Needed libraries**: please make sure to install all the libraries needed to run the code by executing the command:
+    ```
+    pip install -r requirements.txt
+    ```
+
+
+
+
+
+
+
+
 ## Point cloud generation
 This tool allows to generate a point cloud representing the reachability space starting from the URDF of a robot.
 

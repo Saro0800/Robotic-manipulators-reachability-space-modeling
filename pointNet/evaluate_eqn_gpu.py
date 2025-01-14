@@ -42,7 +42,8 @@ elif args.restore_from_last==False and args.restore_from_best==False:
 
 physical_devices = tf.config.experimental.list_physical_devices('GPU')
 print("GPU available: ", len(physical_devices))
-tf.config.experimental.set_memory_growth(physical_devices[0], True)
+if len(physical_devices)>0:
+    tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
 # generate the equation's parameter
 global A_gt, B_gt, C_gt, R_gt, xc_gt, yc_gt, zc_gt
@@ -118,7 +119,7 @@ def plot_implicit(fn_gt, fn_pred, param, fig, index, title, bbox=(-2.5,2.5)):
     ax.set_title(title)
 
 # get a sample from the dataset
-train_ds, train_labels, test_ds, test_labels, class_map = get_dataset("new_train_dataset_5000.h5", shuffle=True, vis_sample=False)
+train_ds, train_labels, test_ds, test_labels, class_map = get_dataset("dataset_10000.h5", shuffle=True, vis_sample=False)
 label = test_labels[0,:]
 label[0] -= 1
 
