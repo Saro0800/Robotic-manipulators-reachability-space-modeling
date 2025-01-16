@@ -32,7 +32,7 @@ The average time and the variance needed by the different methods, for different
 In addition, each script will generate a pyplot with the average time. As an example, the one obtained executing the *"gen_cloud_eval.py"* script is reported below.
 
 <div align="center">
-    <img src="images/ur5e_our_method.png" width="600">
+    <img src="../images/ur5e_our_method.png" width="600">
 </div>
 
 ### Evaluation of the optimization problem
