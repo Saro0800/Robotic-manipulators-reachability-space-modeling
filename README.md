@@ -33,12 +33,36 @@ Before installing and using this repo, please be sure to meet the following prer
 
 ## Installation
 To use the code provided in this repository, please follow these steps:
-1. Clone the repository inside your environment
+1. Install git and git-lfs:
+    ```
+    sudo apt-get install git git-lfs
+    ```
 
-4. **Needed libraries**: please make sure to install all the libraries needed to run the code by executing the command:
+2. Install pip:
+    ```
+    sudo apt-get install python3-pip
+    ```
+
+3. Clone the repository inside your environment:
+    ```
+    git clone https://github.com/Saro0800/Robotic-manipulators-reachability-space-modeling.git
+    ```
+
+4. Install all the needed librariers with their respective versions:
     ```
     pip install -r requirements.txt
     ```
+
+### Possible errors
+If during the use of the provided script you encounter some errors regarding some missing package, please run the following commands:
+```
+echo 'export PATH="$PATH:/home/$USER/.local/bin"' >> ~.bashrc
+export PYTHONPATH="$PYTHONPATH:/path/to/Robotic-manipulators-reachability-space-modeling"
+```
+
+**PLEASE NOTE** that the last command must be executed every time you need to use the repository.
+
+
 
 ## Cite us
 
