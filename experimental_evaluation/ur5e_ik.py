@@ -15,7 +15,7 @@ import math
 
 def gen_point_cloud(num_samples):
     # Load the robot chain from a URDF file
-    robot_chain = ikpy.chain.Chain.from_urdf_file("/home/rosario/Desktop/Base-Optimization-for-Mobile-Robots/reach_space_estimation/generate_pointcloud/model/ur5e.urdf",
+    robot_chain = ikpy.chain.Chain.from_urdf_file("/home/rosario/Desktop/Robotic-manipulators-reachability-space-modeling/reach_space_estimation/generate_pointcloud/model/ur5e.urdf",
                                     active_links_mask=[False, False, True, True, True, False, False, False, False, False])
     
     # set the robot in an extended state
