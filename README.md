@@ -65,6 +65,8 @@ export PYTHONPATH="$PYTHONPATH:/path/to/Robotic-manipulators-reachability-space-
 
 
 ## Cite us
+If you use the code in this repository in your research, please cite the following paper:
+```bibtex
 @article{cavelli2025modeling,
   title={Modeling the reachability space of robotic manipulators through ellipsoid equations},
   author={Cavelli, Rosario Francesco and Cen Cheng, Pangcheng David and Indri, Marina},
@@ -75,7 +77,7 @@ export PYTHONPATH="$PYTHONPATH:/path/to/Robotic-manipulators-reachability-space-
   year={2025},
   publisher={Springer}
 }
-
+```
 
 
 
