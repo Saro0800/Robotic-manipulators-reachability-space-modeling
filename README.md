@@ -65,7 +65,16 @@ export PYTHONPATH="$PYTHONPATH:/path/to/Robotic-manipulators-reachability-space-
 
 
 ## Cite us
-
+@article{cavelli2025modeling,
+  title={Modeling the reachability space of robotic manipulators through ellipsoid equations},
+  author={Cavelli, Rosario Francesco and Cen Cheng, Pangcheng David and Indri, Marina},
+  journal={Journal of Intelligent \& Robotic Systems},
+  volume={111},
+  number={3},
+  pages={90},
+  year={2025},
+  publisher={Springer}
+}
 
 
 
